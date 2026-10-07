@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Odd Jobs for Our Elders, Plus | Handyman & Home Maintenance in Alton, IL</title>
-<meta name="description" content="Affordable, dependable handyman, home maintenance, odd jobs, organization and home safety services in Alton, IL and surrounding River Bend communities. Free estimates.">
+<meta name="description" content="Affordable, dependable handyman, home maintenance, odd jobs, organization and home safety services in Alton, IL and surrounding Riverbend communities. Free estimates.">
+
 <style>
 :root{
   --ink:#243238;
@@ -14,7 +15,15 @@
   --white:#fff;
   --muted:#657277
 }
-*{box-sizing:border-box}
+
+*{
+  box-sizing:border-box
+}
+
+html{
+  scroll-behavior:smooth
+}
+
 body{
   margin:0;
   font-family:Arial,Helvetica,sans-serif;
@@ -22,6 +31,7 @@ body{
   line-height:1.6;
   background:#fff
 }
+
 header{
   background:var(--green);
   color:#fff;
@@ -30,6 +40,7 @@ header{
   top:0;
   z-index:10
 }
+
 .nav{
   max-width:1100px;
   margin:auto;
@@ -38,41 +49,49 @@ header{
   align-items:center;
   gap:20px
 }
+
 .brand{
   font-weight:800;
   font-size:1.05rem
 }
+
 .nav a{
   color:#fff;
   text-decoration:none;
   margin-left:18px;
   font-size:.95rem
 }
+
 .hero{
   background:var(--cream);
   padding:70px 6%
 }
+
 .wrap{
   max-width:1100px;
   margin:auto
 }
+
 .hero h1{
   font-size:clamp(2.3rem,6vw,4.5rem);
   line-height:1.05;
   margin:0 0 18px;
   max-width:800px
 }
+
 .hero p{
   font-size:1.2rem;
   max-width:700px;
   color:#46565b
 }
+
 .badges{
   display:flex;
   flex-wrap:wrap;
   gap:10px;
   margin:0 0 25px
 }
+
 .badge{
   background:#fff;
   border:1px solid #ddd7ca;
@@ -80,6 +99,7 @@ header{
   padding:8px 14px;
   font-weight:700
 }
+
 .offer{
   background:var(--gold);
   color:#fff;
@@ -89,23 +109,27 @@ header{
   max-width:650px;
   box-shadow:0 5px 18px rgba(0,0,0,.10)
 }
+
 .offer strong{
   display:block;
   font-size:1.35rem;
   line-height:1.2
 }
+
 .offer span{
   display:block;
   font-size:1.05rem;
   margin-top:4px;
   font-weight:800
 }
+
 .offer small{
   display:block;
   color:#fff;
   margin-top:4px;
   font-size:.9rem
 }
+
 .btn{
   display:inline-block;
   background:var(--gold);
@@ -116,28 +140,34 @@ header{
   font-weight:800;
   margin:5px 8px 5px 0
 }
+
 .btn.secondary{
   background:var(--green)
 }
+
 section{
   padding:65px 6%
 }
+
 .section-title{
   text-align:center;
   font-size:2rem;
   margin:0 0 12px
 }
+
 .lead{
   text-align:center;
   max-width:750px;
   margin:0 auto 35px;
   color:var(--muted)
 }
+
 .grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
   gap:18px
 }
+
 .card{
   border:1px solid #e4e6e5;
   border-radius:12px;
@@ -145,25 +175,31 @@ section{
   background:#fff;
   box-shadow:0 4px 16px rgba(0,0,0,.05)
 }
+
 .card h3{
   margin-top:0
 }
+
 .price{
   font-size:2.1rem;
   font-weight:900;
   color:var(--green)
 }
+
 .alt{
   background:var(--cream)
 }
+
 .about-story{
   max-width:850px;
   margin:0 auto 35px;
   font-size:1.08rem
 }
+
 .about-story p{
   margin:0 0 18px
 }
+
 .about-highlight{
   background:var(--cream);
   border-left:5px solid var(--gold);
@@ -172,31 +208,39 @@ section{
   font-size:1.12rem;
   margin:25px 0
 }
+
 .safety-reasons{
   margin-top:30px
 }
+
 .safety-reasons ul{
   margin:0;
   padding-left:22px
 }
+
 .safety-reasons li{
   margin-bottom:10px
 }
+
 .safety-list{
   columns:2;
   column-gap:40px
 }
+
 .safety-list li{
   break-inside:avoid;
   margin-bottom:9px
 }
+
 .steps{
   counter-reset:step
 }
+
 .step{
   position:relative;
   padding-left:55px
 }
+
 .step:before{
   counter-increment:step;
   content:counter(step);
@@ -212,15 +256,18 @@ section{
   place-items:center;
   font-weight:800
 }
+
 .quote{
   background:var(--green);
   color:#fff;
   text-align:center
 }
+
 .quote p{
   max-width:700px;
   margin:0 auto 20px
 }
+
 footer{
   background:#1f292d;
   color:#fff;
@@ -228,19 +275,23 @@ footer{
   text-align:center;
   font-size:.9rem
 }
+
 small{
   color:#d7ded9
 }
+
 .note{
   font-size:.9rem;
   color:var(--muted)
 }
+
 .service-area{
   text-align:center;
   max-width:800px;
   margin:35px auto 0;
   color:var(--muted)
 }
+
 .specialized-note{
   text-align:center;
   max-width:760px;
@@ -248,25 +299,31 @@ small{
   color:var(--muted);
   font-size:1rem
 }
+
 @media(max-width:700px){
   .nav{
     align-items:flex-start
   }
+
   .nav a{
     display:none
   }
+
   .hero{
     padding:50px 6%
   }
+
   .offer{
     padding:16px 18px
   }
+
   .safety-list{
     columns:1
   }
 }
 </style>
 </head>
+
 <body>
 
 <header>
@@ -274,6 +331,7 @@ small{
     <div class="brand">
       Odd Jobs for Our Elders, Plus
     </div>
+
     <nav>
       <a href="#services">Services</a>
       <a href="#about">About</a>
@@ -303,7 +361,7 @@ small{
       Affordable, dependable help with home maintenance,
       odd jobs, assembly, organization and safety projects
       for homeowners, older adults and busy families in
-      <strong>Alton, Illinois and surrounding River Bend communities.</strong>
+      <strong>Alton, Illinois and surrounding Riverbend communities.</strong>
     </p>
 
     <a class="btn" href="#contact">
@@ -392,11 +450,14 @@ small{
 
       <div class="card">
         <h3>💵 Straightforward Pricing</h3>
+
         <p class="price">$40/hr</p>
+
         <p>
           Introductory labor rate with a 1-hour minimum.
           Materials are quoted separately when applicable.
         </p>
+
         <p>
           <strong>Free estimates</strong> are provided before
           work begins so you know what to expect.
@@ -416,6 +477,7 @@ small{
 
       <div class="card">
         <h3>🤝 Personal Service</h3>
+
         <p>
           You're dealing directly with the person doing the work —
           no call center and no complicated process.
@@ -424,6 +486,7 @@ small{
 
       <div class="card">
         <h3>💚 Built on Trust</h3>
+
         <p>
           My goal is simple: provide good and honest work,
           communicate clearly, and treat every home and its
@@ -452,6 +515,7 @@ small{
 
     <div class="card">
       <h3>🔨 Odd Jobs & Home Repair Projects</h3>
+
       <p>
         Home repairs, adjustments, hardware replacement,
         touch-ups and those projects that keep getting put off.
@@ -460,6 +524,7 @@ small{
 
     <div class="card">
       <h3>🏠 Home Maintenance</h3>
+
       <p>
         Seasonal upkeep — both inside and out, household maintenance,
         preventative maintenance and practical projects around the home.
@@ -468,6 +533,7 @@ small{
 
     <div class="card">
       <h3>🪑 Assembly & Installation</h3>
+
       <p>
         Furniture, TV mounts, shelving, organizers, curtain hardware,
         smart devices, household accessories and many other items
@@ -477,6 +543,7 @@ small{
 
     <div class="card">
       <h3>🛡️ Home Safety & Accessibility</h3>
+
       <p>
         Identify common household hazards and recommend practical
         improvements that can make a home safer, more comfortable
@@ -486,6 +553,7 @@ small{
 
     <div class="card">
       <h3>🧹 Organization & Household Help</h3>
+
       <p>
         Help with closets, garages, storage areas, kitchens,
         moving preparation, downsizing and other manageable
@@ -495,6 +563,7 @@ small{
 
     <div class="card">
       <h3>💚 Help for Our Elders</h3>
+
       <p>
         A dependable option for older adults and their families
         who need an extra set of capable hands to help keep a
@@ -508,7 +577,7 @@ small{
   <div class="service-area">
 
     <strong>
-      Serving Alton, IL and surrounding River Bend communities.
+      Serving Alton, IL and surrounding Riverbend communities.
     </strong>
 
     <br><br>
@@ -866,7 +935,7 @@ small{
 
     <p>
       <small>
-        Proudly serving Alton, Illinois and surrounding River Bend
+        Proudly serving Alton, Illinois and surrounding Riverbend
         communities. Service area and availability may vary.
       </small>
     </p>
@@ -885,13 +954,24 @@ small{
 
   <br>
 
-  Alton, Illinois & surrounding River Bend communities
+  Alton, Illinois & surrounding Riverbend communities
 
   <br>
 
   Caring and capable. Helping hands when you need them. 💚
 
 </footer>
+
+<!-- FORCE PAGE TO START AT TOP ON LOAD -->
+<script>
+  if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+  }
+
+  window.addEventListener('load', function () {
+    window.scrollTo(0, 0);
+  });
+</script>
 
 </body>
 </html>
