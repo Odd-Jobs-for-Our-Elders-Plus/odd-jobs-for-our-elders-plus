@@ -4,14 +4,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<meta name="google-site-verification" content="Shx44cx-_IRutrtKJgmqZB-CCExvv_payMjixME1XCM" />
-
-<title>Odd Jobs for Our Elders, Plus | Handyman & Home Maintenance in Alton, IL</title>
-
-<meta name="description" content="Affordable, dependable handyman services, home maintenance, odd jobs, assembly, household help, and home safety checks in Alton, Illinois and the Riverbend communities. Free estimates.">
-
-<meta name="theme-color" content="#496b58">
+<meta name="google-site-verification" content="Shx44cx-_IRutrtKJgmqZB-CCExvv_payMjixME1XCM">
+<title>Odd Jobs for Our Elders, Plus | Handyman &amp; Home Maintenance in Alton, IL</title>
+<meta name="description" content="Affordable, dependable handyman help, home maintenance, odd jobs, organization, and home safety checks in Alton and the Riverbend. Free estimates.">
 
 <style>
 :root {
@@ -19,14 +14,12 @@
   --green: #496b58;
   --cream: #f7f3ea;
   --gold: #c49a52;
-  --white: #ffffff;
+  --white: #fff;
   --muted: #657277;
-  --border: #e4e6e5;
+  --line: #e4e6e5;
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 html {
   scroll-behavior: smooth;
@@ -38,12 +31,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: var(--ink);
   line-height: 1.6;
-  background: #ffffff;
+  background: #fff;
 }
 
 header {
   background: var(--green);
-  color: #ffffff;
+  color: #fff;
   padding: 18px 6%;
   position: sticky;
   top: 0;
@@ -64,16 +57,19 @@ header {
   font-size: 1.05rem;
 }
 
-.nav a {
-  color: #ffffff;
-  text-decoration: none;
-  margin-left: 18px;
-  font-size: 0.95rem;
+.nav nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
-.nav a:hover {
-  text-decoration: underline;
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: .95rem;
 }
+
+.nav a:hover { text-decoration: underline; }
 
 .hero {
   background: var(--cream);
@@ -106,42 +102,33 @@ header {
 }
 
 .badge {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #ddd7ca;
   border-radius: 30px;
   padding: 8px 14px;
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: .92rem;
 }
 
 .btn {
   display: inline-block;
   background: var(--gold);
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   padding: 13px 22px;
   border-radius: 8px;
   font-weight: 800;
   margin: 5px 8px 5px 0;
-  border: none;
 }
 
-.btn:hover {
-  filter: brightness(0.93);
-}
+.btn:hover { filter: brightness(.95); }
+.btn.secondary { background: var(--green); }
 
-.btn.secondary {
-  background: var(--green);
-}
-
-section {
-  padding: 65px 6%;
-  scroll-margin-top: 90px;
-}
+section { padding: 65px 6%; }
 
 .section-title {
   text-align: center;
-  font-size: 2rem;
+  font-size: clamp(1.7rem, 4vw, 2rem);
   line-height: 1.2;
   margin: 0 0 12px;
 }
@@ -160,130 +147,91 @@ section {
 }
 
 .card {
-  border: 1px solid var(--border);
+  min-width: 0;
+  border: 1px solid var(--line);
   border-radius: 12px;
   padding: 25px;
-  background: #ffffff;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
-  min-width: 0;
+  background: #fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,.05);
 }
 
 .card h3 {
-  margin-top: 0;
+  margin: 0 0 10px;
+  line-height: 1.35;
 }
+
+.card p:last-child { margin-bottom: 0; }
 
 .price {
   font-size: 2.1rem;
   font-weight: 900;
   color: var(--green);
-  margin: 10px 0;
+  margin: 8px 0;
 }
 
-.alt {
-  background: var(--cream);
-}
+.alt { background: var(--cream); }
 
 .promo {
-  background: #edf3ed;
-  border: 1px solid #cbd9cc;
-  border-radius: 12px;
-  padding: 22px;
-  margin-top: 22px;
-}
-
-.promo h3 {
-  margin-top: 0;
-  color: var(--green);
-}
-
-.promo strong {
-  color: var(--green);
-}
-
-.check-list {
-  list-style: none;
-  padding-left: 0;
-  margin: 18px 0;
-}
-
-.check-list li {
-  margin-bottom: 12px;
-  padding-left: 4px;
-}
-
-.safety-intro {
-  font-size: 1.08rem;
-  max-width: 800px;
-  margin: 0 auto 25px;
-}
-
-.safety-price {
-  text-align: center;
-  background: #ffffff;
-  border: 2px solid #d8e3d9;
-  border-radius: 14px;
-  padding: 28px 24px;
-  margin: 25px auto 30px;
-  max-width: 800px;
-}
-
-.safety-price .price {
-  font-size: 2.8rem;
-  margin: 0;
-}
-
-.safety-price p {
-  margin: 8px 0 0;
-}
-
-.safety-details {
+  border-left: 5px solid var(--gold);
+  background: #fff;
+  padding: 18px 20px;
+  border-radius: 8px;
+  margin: 24px auto 0;
   max-width: 850px;
-  margin: auto;
 }
 
-.safety-details h3 {
-  margin-top: 28px;
-}
+.promo strong { color: var(--green); }
 
-.disclaimer {
-  border-left: 4px solid var(--gold);
-  padding: 12px 18px;
-  background: #ffffff;
-  color: var(--muted);
-  font-size: 0.9rem;
-  margin-top: 28px;
-}
-
+/* FIX: Number and text occupy separate grid columns. */
 .steps {
-  counter-reset: step;
   display: grid;
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+  counter-reset: step;
 }
 
 .step {
-  position: relative;
-  padding: 25px 25px 25px 78px;
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  column-gap: 16px;
+  align-items: start;
+  padding: 25px;
 }
 
 .step:before {
   counter-increment: step;
   content: counter(step);
-  position: absolute;
-  left: 25px;
-  top: 25px;
+  position: static;
+  display: grid;
+  place-items: center;
   background: var(--green);
-  color: #ffffff;
+  color: #fff;
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  display: grid;
-  place-items: center;
   font-weight: 800;
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.step h3 {
+  grid-column: 2;
+  grid-row: 1;
+  margin: 5px 0 8px;
+  overflow-wrap: anywhere;
+}
+
+.step p {
+  grid-column: 2;
+  grid-row: 2;
+  margin: 0;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .quote {
   background: var(--green);
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 
@@ -292,531 +240,225 @@ section {
   margin: 0 auto 20px;
 }
 
-.quote .section-title {
-  color: #ffffff;
-}
-
 footer {
   background: #1f292d;
-  color: #ffffff;
+  color: #fff;
   padding: 30px 6%;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: .9rem;
 }
 
-small {
-  color: #d7ded9;
-}
+footer small { color: #d7ded9; }
 
 .note {
-  font-size: 0.9rem;
+  font-size: .9rem;
   color: var(--muted);
 }
 
 @media (max-width: 700px) {
   .nav {
     align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
   }
 
-  .nav nav {
-    display: none;
+  .nav nav { gap: 12px; }
+  .nav a { font-size: .9rem; }
+  .hero { padding: 55px 6%; }
+  section { padding: 50px 6%; }
+
+  .step {
+    grid-template-columns: 38px minmax(0, 1fr);
+    column-gap: 12px;
+    padding: 20px;
   }
 
-  .hero {
-    padding: 55px 6%;
-  }
-
-  section {
-    padding: 50px 6%;
-  }
-
-  .section-title {
-    font-size: 1.75rem;
-  }
-
-  .card {
-    padding: 22px;
-  }
-
-  .safety-price .price {
-    font-size: 2.4rem;
+  .step:before {
+    width: 34px;
+    height: 34px;
   }
 }
 </style>
 </head>
 
 <body>
-
 <header>
   <div class="nav">
     <div class="brand">Odd Jobs for Our Elders, Plus</div>
-
     <nav aria-label="Main navigation">
       <a href="#services">Services</a>
-      <a href="#safety">Safety Check</a>
       <a href="#about">About</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#safety">Safety Check</a>
       <a href="#contact">Contact</a>
     </nav>
   </div>
 </header>
 
 <main>
-
-  <!-- HERO SECTION -->
-  <section class="hero">
-    <div class="wrap">
-
-      <div class="badges">
-        <span class="badge">Locally Owned Handyman Service</span>
-        <span class="badge">Free Estimates</span>
-        <span class="badge">Caring &amp; Dependable</span>
-      </div>
-
-      <h1>A helping hand when you need one.</h1>
-
-      <p>
-        Affordable, dependable help with the little home-maintenance,
-        repair, assembly, and safety jobs that can be difficult to
-        get around to.
-      </p>
-
-      <p>
-        Proud to offer a caring, capable set of hands to older adults,
-        homeowners, busy families, and neighbors throughout Alton
-        and the surrounding Riverbend communities.
-      </p>
-
-      <a class="btn" href="#contact">Request a Free Estimate</a>
-      <a class="btn secondary" href="#services">Explore Services</a>
-
+<section class="hero">
+  <div class="wrap">
+    <div class="badges">
+      <span class="badge">Locally Owned</span>
+      <span class="badge">Free Estimates</span>
+      <span class="badge">Caring &amp; Dependable</span>
     </div>
-  </section>
 
+    <h1>A helping hand when you need one.</h1>
 
-  <!-- SERVICES SECTION -->
-  <section id="services">
+    <p>Affordable, dependable help with home maintenance, everyday repairs, assembly, organization, and the little jobs that can be difficult to get around to.</p>
 
+    <a class="btn" href="#contact">Request a Free Estimate</a>
+    <a class="btn secondary" href="#services">See Services</a>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
     <h2 class="section-title">Home Maintenance, Odd Jobs &amp; Helping Hands</h2>
+    <p class="lead">Small jobs matter. Whether you need an extra set of capable hands or want to make your home safer and easier to maintain, let's talk.</p>
 
-    <p class="lead">
-      Small jobs matter. Whether you need an extra set of capable hands
-      or want to make your home safer and easier to maintain, let's talk
-      about what I can do to help.
-    </p>
-
-    <div class="wrap grid">
-
+    <div class="grid">
       <div class="card">
-        <h3>🔨 Odd Jobs &amp; Home Repair Projects</h3>
-        <p>
-          Minor home repairs, adjustments, touch-ups, hanging items,
-          mounting shelves, and those little projects that keep getting
-          put off.
-        </p>
+        <h3>🔨 Odd Jobs &amp; Home Repairs</h3>
+        <p>Minor home repairs, adjustments, touch-ups, door hardware, and those small projects that keep getting put off.</p>
       </div>
 
       <div class="card">
         <h3>🏠 Home Maintenance</h3>
-        <p>
-          General household upkeep, seasonal maintenance, preventative
-          tasks, and practical projects that help keep your home
-          comfortable and in good working order.
-        </p>
+        <p>Seasonal upkeep, household maintenance, preventative tasks, and practical projects around the home.</p>
       </div>
 
       <div class="card">
         <h3>🪑 Assembly &amp; Installation</h3>
-        <p>
-          Furniture assembly, shelving, curtain rods, household
-          fixtures, TV mounting, and other appropriate household
-          installation projects.
-        </p>
+        <p>Furniture assembly, shelves, hanging and mounting, fixtures, and other household items that need a capable set of hands.</p>
       </div>
 
       <div class="card">
         <h3>🛡️ Home Safety &amp; Accessibility</h3>
-        <p>
-          Identify potential household hazards and explore practical
-          improvements that may help make everyday living safer,
-          easier, and more convenient.
-        </p>
+        <p>Identify common household hazards and discuss practical improvements to make a home safer and easier to navigate.</p>
       </div>
 
       <div class="card">
         <h3>🧹 Organization &amp; Household Help</h3>
-        <p>
-          Help with organizing spaces, decluttering, manageable
-          household projects, and other agreed-upon tasks that benefit
-          from an extra set of hands.
-        </p>
+        <p>Help with manageable household tasks, organizing, and projects that are easier with an extra set of hands.</p>
       </div>
 
       <div class="card">
         <h3>💚 Help for Our Elders</h3>
-        <p>
-          Caring, dependable assistance for older adults and their
-          families who need help keeping a home comfortable,
-          manageable, and well maintained.
-        </p>
-      </div>
-
-    </div>
-  </section>
-
-
-  <!-- HOME SAFETY & MAINTENANCE CHECK -->
-  <section class="alt" id="safety">
-
-    <div class="wrap">
-
-      <h2 class="section-title">Home Safety &amp; Maintenance Check</h2>
-
-      <p class="lead">
-        Sometimes the most valuable service is simply having another
-        set of eyes walk through the home.
-      </p>
-
-      <div class="safety-price">
-        <p class="price">$100</p>
-        <h3>One Visit. One Flat Fee.</h3>
-        <p>
-          For just $100, get greater peace of mind with a thorough
-          Home Safety &amp; Maintenance Check! 💚
-        </p>
-      </div>
-
-      <div class="safety-details">
-
-        <p>
-          Whether you're helping an aging loved one remain independent,
-          preparing a home for a new baby, moving into a new place, or
-          simply wanting to stay ahead of household maintenance, this
-          <strong>standalone service</strong> is designed to help you
-          identify potential concerns before they become bigger problems.
-        </p>
-
-        <p>
-          For one flat fee of $100, I'll walk through your home with
-          you, look for potential safety hazards and maintenance
-          concerns, and provide a detailed written list of observations
-          and recommended improvements.
-        </p>
-
-        <h3>Your $100 check includes:</h3>
-
-        <ul class="check-list">
-          <li>
-            🏡 <strong>A thorough home walkthrough</strong>
-          </li>
-          <li>
-            ⚠️ <strong>Observations of potential safety hazards and fall risks</strong>
-          </li>
-          <li>
-            🔧 <strong>Identification of visible maintenance concerns and preventative upkeep opportunities</strong>
-          </li>
-          <li>
-            ♿ <strong>Suggestions for accessibility, organization, and everyday convenience</strong>
-          </li>
-          <li>
-            📝 <strong>A detailed written summary of findings and recommended next steps</strong>
-          </li>
-        </ul>
-
-        <p>
-          No additional work is required. You'll receive your
-          observations and recommendations whether you decide to tackle
-          the improvements yourself, hire another professional, or ask
-          me to provide a separate estimate for any work you'd like
-          completed.
-        </p>
-
-        <p style="text-align:center; font-size:1.12rem; font-weight:700; margin:30px 0;">
-          One visit. One flat fee. A little more peace of mind. 💚
-        </p>
-
-        <div class="disclaimer">
-          <strong>A quick note about the service:</strong>
-          This service is a general visual safety and maintenance
-          review, not a licensed home inspection or an evaluation of
-          structural integrity, building-code compliance, or specialized
-          systems. It does not replace an assessment by a qualified
-          professional where one is needed.
-        </div>
-
-        <p style="text-align:center; margin-top:28px;">
-          Interested in scheduling your
-          <strong>Home Safety &amp; Maintenance Check?</strong>
-          Reach out for a free estimate on any additional work you'd
-          like to discuss.
-        </p>
-
-        <p style="text-align:center;">
-          <a class="btn" href="#contact">Let's Talk About Your Home</a>
-        </p>
-
+        <p>A dependable option for older adults and their families who need help keeping a home comfortable and maintained.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
+<section class="alt" id="how-it-works">
+  <div class="wrap">
+    <h2 class="section-title">How It Works</h2>
+    <p class="lead">A simple, straightforward process from first conversation to finished job.</p>
 
-  <!-- ABOUT & PRICING -->
-  <section id="about">
+    <div class="steps">
+      <div class="step card">
+        <h3>Tell me what you need</h3>
+        <p>Send a message or request a free estimate with a description and photos if helpful.</p>
+      </div>
 
-    <div class="wrap">
+      <div class="step card">
+        <h3>We'll talk it through</h3>
+        <p>We'll discuss the job, your priorities, and whether it's something I can safely and appropriately handle.</p>
+      </div>
 
-      <h2 class="section-title">Why Odd Jobs for Our Elders, Plus?</h2>
+      <div class="step card">
+        <h3>Get a detailed estimate</h3>
+        <p>I'll explain the expected work and costs so you can decide what fits your needs and budget.</p>
+      </div>
 
-      <p class="lead">
-        I started this business because there are a lot of jobs around
-        a home that don't necessarily require a major contractor.
-        Sometimes, they just require someone dependable, capable, and
-        willing to help.
-      </p>
-
-      <div class="grid">
-
-        <div class="card">
-          <h3>💵 Straightforward Pricing</h3>
-
-          <p class="price">$40/hr</p>
-
-          <p>
-            My introductory labor rate is $40 per hour, with a
-            one-hour minimum. Materials are separate.
-          </p>
-
-          <p>
-            I'll discuss the job with you and provide a free estimate
-            before work begins.
-          </p>
-
-          <div class="promo">
-            <h3>🎉 First 25 Customers Promotion!</h3>
-
-            <p>
-              <strong>25% OFF total labor cost</strong> for my first
-              25 customers.
-            </p>
-
-            <p>
-              It's my way of thanking the community for helping get
-              this local business off the ground. 💚
-            </p>
-          </div>
-        </div>
-
-        <div class="card">
-          <h3>🤝 Personal Service</h3>
-
-          <p>
-            You'll communicate directly with me about your project.
-            I'll listen to your needs, discuss practical options,
-            and explain what I can appropriately handle.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>💚 Built on Trust</h3>
-
-          <p>
-            My goal is simple: communicate clearly, respect your home,
-            do the job responsibly, and treat every customer with
-            patience and consideration.
-          </p>
-        </div>
-
+      <div class="step card">
+        <h3>Choose what works for you</h3>
+        <p>If you'd like to move forward, we'll agree on the work and timing before anything begins. No pressure.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
+<section id="about" class="alt">
+  <div class="wrap">
+    <h2 class="section-title">Why Odd Jobs for Our Elders, Plus?</h2>
+    <p class="lead">I started this business because many jobs around a home don't necessarily require a major contractor — they just require someone dependable, capable, and willing to help.</p>
 
-  <!-- HOW IT WORKS -->
-  <section class="alt">
+    <div class="grid">
+      <div class="card">
+        <h3>💵 Straightforward Pricing</h3>
+        <p class="price">$40/hr</p>
+        <p>Introductory labor rate with a 1-hour minimum. Materials are separate and discussed in advance when applicable.</p>
+      </div>
 
-    <div class="wrap">
+      <div class="card">
+        <h3>🤝 Personal Service</h3>
+        <p>You're dealing directly with the person doing the work — clear communication, a practical approach, and no complicated process.</p>
+      </div>
 
-      <h2 class="section-title">How It Works</h2>
-
-      <p class="lead">
-        Getting started is simple. Let's talk about what you need
-        and figure out the best next step together.
-      </p>
-
-      <div class="steps">
-
-        <div class="step card">
-          <h3>Tell Me What You Need</h3>
-          <p>
-            Send a message or request a free estimate. Photos and a
-            brief description can help me understand your project.
-          </p>
-        </div>
-
-        <div class="step card">
-          <h3>We'll Discuss the Job</h3>
-          <p>
-            We'll talk through your needs, review the possibilities,
-            and determine whether it's something I can safely and
-            appropriately handle.
-          </p>
-        </div>
-
-        <div class="step card">
-          <h3>Review Your Estimate</h3>
-          <p>
-            I'll explain the proposed work and expected costs so
-            we can agree on the details before anything begins.
-          </p>
-        </div>
-
-        <div class="step card">
-          <h3>Get It on the Schedule</h3>
-          <p>
-            Once we've agreed on the work and timing, we'll get
-            things scheduled and take it one step at a time.
-          </p>
-        </div>
-
+      <div class="card">
+        <h3>💚 Caring &amp; Capable</h3>
+        <p>As a husband, dad, and nurse, I value patience, attention to detail, dignity, and treating every home with respect.</p>
       </div>
     </div>
-  </section>
 
-
-  <!-- CONTACT SECTION -->
-  <section class="quote" id="contact">
-
-    <div class="wrap">
-
-      <h2 class="section-title">Need a Helping Hand?</h2>
-
-      <p>
-        Tell me what you have in mind! Whether it's a small repair,
-        a household project, or a little help making your home safer
-        and more manageable, I'd be happy to discuss the possibilities.
-      </p>
-
-      <p>
-        <strong>Free estimates. Friendly conversation. Dependable help.</strong>
-      </p>
-
-      <a class="btn" href="mailto:ttkpfacebook@gmail.com">
-        Email Me
-      </a>
-
-      <a class="btn" href="tel:+15738220485">
-        Call Me
-      </a>
-
-      <a
-        class="btn secondary"
-        href="https://www.facebook.com/share/19DcWmNujW/?mibextid=wwXIfr"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Facebook Page
-      </a>
-
-      <p>
-        <strong>573-822-0485</strong>
-        &nbsp;|&nbsp;
-        <strong>ttkpfacebook@gmail.com</strong>
-      </p>
-
-      <p>
-        <small>
-          Serving Alton, Illinois and surrounding Riverbend communities.
-          Service availability may vary.
-        </small>
-      </p>
-
+    <div class="promo">
+      <strong>Introductory offer:</strong> The first 25 customers receive <strong>25% off total labor cost</strong>. Materials are separate. Ask for details when requesting your free, detailed estimate.
     </div>
-  </section>
+  </div>
+</section>
 
+<!-- The full Home Safety & Maintenance Check section now follows the Why section. -->
+<section class="alt" id="safety">
+  <div class="wrap">
+    <h2 class="section-title">Home Safety &amp; Maintenance Check</h2>
+    <p class="lead">Sometimes the most valuable service is simply having another set of eyes walk through the home.</p>
+
+    <div class="promo">
+      <p><strong>For just $100, get a thoughtful walk-through and written observations to help you understand what may need attention around your home.</strong> This is a standalone service — you do not need to hire me for any additional work.</p>
+    </div>
+
+    <div class="grid" style="margin-top:22px">
+      <div class="card">
+        <h3>🔎 A Thorough Walk-Through</h3>
+        <p>We look for common home-safety, maintenance, accessibility, and preventative-care concerns throughout the home.</p>
+      </div>
+
+      <div class="card">
+        <h3>📝 Written Observations</h3>
+        <p>You'll receive a clear list of observations and practical recommendations to help you prioritize next steps.</p>
+      </div>
+
+      <div class="card">
+        <h3>🧭 Your Home, Your Choice</h3>
+        <p>Use the list to plan your own projects, ask me for a separate estimate, or contact an appropriate professional. There's no obligation.</p>
+      </div>
+    </div>
+
+    <p class="note" style="margin-top:22px;text-align:center">This service is not a licensed home inspection, code-compliance review, structural assessment, or medical evaluation. Specialized electrical, plumbing, HVAC, structural, roofing, pest, and other regulated concerns may require a properly qualified professional.</p>
+  </div>
+</section>
+
+<section class="quote" id="contact">
+  <div class="wrap">
+    <h2 class="section-title">Need a Helping Hand?</h2>
+    <p>Tell me what you have in mind. Whether it's one small job or a list of home-maintenance needs, I'd be happy to discuss it and provide a free, detailed estimate.</p>
+
+    <a class="btn" href="mailto:ttkpfacebook@gmail.com">Email Me</a>
+    <a class="btn" href="tel:+15738220485">Call Me</a>
+    <a class="btn secondary" href="https://www.facebook.com/share/19DcWmNujW/?mibextid=wwXIfr" target="_blank" rel="noopener">Facebook Page</a>
+
+    <p><strong>573-822-0485</strong> &nbsp;|&nbsp; <strong>ttkpfacebook@gmail.com</strong></p>
+    <p><small>Serving Alton and the surrounding Riverbend communities. Service area and availability may vary.</small></p>
+  </div>
+</section>
 </main>
 
-
-<!-- FOOTER -->
 <footer>
-
-  <strong>Odd Jobs for Our Elders, Plus</strong>
-
-  <p>
-    Caring and capable. Just a helping hand when you need one. 💚
-  </p>
-
-  <p>
-    <small>
-      © <span id="current-year">2026</span>
-      Odd Jobs for Our Elders, Plus. All rights reserved.
-    </small>
-  </p>
-
+  <strong>Odd Jobs for Our Elders, Plus</strong><br>
+  Caring and capable. Just a helping hand when you need one. 💚
 </footer>
-
-
-<script>
-/* Keep the footer year current. */
-document.getElementById("current-year").textContent =
-  new Date().getFullYear();
-
-/* Preserve section navigation and account for the sticky header. */
-document.querySelectorAll('a[href^="#"]').forEach(function (link) {
-  link.addEventListener("click", function (event) {
-    var targetId = link.getAttribute("href").slice(1);
-    var target = document.getElementById(targetId);
-
-    if (target) {
-      event.preventDefault();
-
-      history.pushState(null, "", "#" + targetId);
-
-      target.scrollIntoView({
-        behavior: "smooth",
-        block: "start"
-      });
-    }
-  });
-});
-
-/* Restore the correct section when opening a page with a URL hash. */
-window.addEventListener("load", function () {
-  if (window.location.hash) {
-    var target = document.getElementById(
-      decodeURIComponent(window.location.hash.slice(1))
-    );
-
-    if (target) {
-      setTimeout(function () {
-        target.scrollIntoView({
-          behavior: "auto",
-          block: "start"
-        });
-      }, 100);
-    }
-  }
-});
-
-/* Handle browser back and forward navigation between sections. */
-window.addEventListener("popstate", function () {
-  if (window.location.hash) {
-    var target = document.getElementById(
-      decodeURIComponent(window.location.hash.slice(1))
-    );
-
-    if (target) {
-      target.scrollIntoView({
-        behavior: "auto",
-        block: "start"
-      });
-    }
-  } else {
-    window.scrollTo({
-      top: 0,
-      behavior: "auto"
-    });
-  }
-});
-</script>
-
 </body>
 </html>
